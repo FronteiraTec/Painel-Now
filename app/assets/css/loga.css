@@ -70,9 +70,7 @@ button:hover {
 
 .container-login{
     padding-top: -5px;
-    padding-left: 140px;
-    padding-right: 140px;
-    /* margin-bottom: -4px; */
+   
     margin-top: -28px;
 }
 .container {
@@ -117,7 +115,7 @@ span.psw {
     margin: 5% auto 15% auto;
     /* 5% from the top, 15% from the bottom and centered */
     border: 1px solid #888;
-    width: 80%;
+    width: 85%;
     /* Could be more or less, depending on screen size */
 }
 
@@ -131,7 +129,11 @@ span.psw {
 
 @media only screen and (max-width: 600px) {
     .container-login{
-        padding-top: 120px
+        padding-right: 0px;
+
+    }
+    img{
+        margin-left: -35px;
     }
    
 }
