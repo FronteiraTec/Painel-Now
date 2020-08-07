@@ -2,12 +2,33 @@ DROP DATABASE IF EXISTS Painel;
 CREATE DATABASE Painel DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE Painel;
 
-DROP USER IF EXISTS 'adm'@'localhost';
-CREATE USER 'adm'@'localhost' IDENTIFIED BY '';
-GRANT SELECT, INSERT, UPDATE, DELETE ON Painel.* TO 'adm'@'localhost';
 
 CREATE TABLE usuarios (
-  ID INTEGER NOT NULL PRIMARY KEY,  
-  login Varchar(30),
-  senha Varchar(40)
+  id INTEGER NOT NULL PRIMARY KEY,  
+  login VARCHAR(50),
+  senha VARCHAR(50)
 );
+
+CREATE TABLE eventos(
+  id INTEGER NOT NULL PRIMARY KEY,
+  imagem VARCHAR(50)
+
+)
+
+CREATE TABLE noticias(
+  id INTEGER NOT NULL PRIMARY KEY,
+  titulo VARCHAR(50),
+  texto VARCHAR(1000)
+
+)
+
+CREATE TABLE grupos(
+  id INTEGER NOT NULL PRIMARY KEY,
+  nome VARCHAR(255),
+  email VARCHAR(255),
+  telefone INTEGER(11)
+)
+
+CREATE TABLE documentos(
+  -- link VARCHAR(255) como ajeitar isso
+)
