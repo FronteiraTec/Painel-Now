@@ -6,7 +6,7 @@
     <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
     <link rel="shortcut icon" href="../assets/img/dce-logo.png">
 
-        <title>Painel Jornal</title>
+    <title>Painel Grupos</title>
 </head>
 
 <body>
@@ -29,27 +29,31 @@
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Painel</span>
     </div>
 
-    <div class="redacao">
+    <div class="grup-forms">
         <form action="#">
-
-            <div class="titulo">
-                <input type="text" class="form-control" id="TituloEnquete" placeholder="Titulo da Enquete"
-                    name="TituloEnquete" required>
+            <div class="name-grupos">
+                <label for="fname">Nome do grupo:</label>
+                <input type="text" class="form-control" id="namegrupo" name='namegrupo' placeholder="Nome do grupo"
+                    required>
             </div>
 
-            <div class="form-image">
-                <label for="exampleFormControlFile1">Anexar imagem</label>
-                <input type="file" class="form-control-file" id="exampleFormControlFile1">
+            <div class="curso-oferece">
+                <label for="fname">Curso:</label>
+                <input type="text" class="form-control" id="namegrupo" name='namegrupo' placeholder="Nome do grupo"
+                    required>
             </div>
 
+            <div class="email-grupo">
+                <label for="email">E-mail:</label>
+                <input type="email" id="emailgrupo" name="emailgrupo" placeholder="email@email.com" required>
+            </div>
 
-            <div class="redacao-post">
-                <textarea name="message" rows="40" cols="110"></textarea>
-                <br><br>
-                <button type="button" class="buttonpost">Postar</button>
-                <button type="button" class="buttoncancel">Cancelar</button>
+            <div class="contato-grupo">
+                <label for="phone">Telefone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}" placeholder="tel.">
             </div>
         </form>
+
     </div>
 
     <footer>

@@ -1,5 +1,6 @@
 body {
     font-family: "Lato", sans-serif;
+    margin: 0;
 }
 
 .sidenav {
@@ -40,6 +41,20 @@ body {
 #main {
     transition: margin-left .5s;
     padding: 16px;
+    border: solid #ddd 1px;
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: solid #ddd 1px;
+}
+
+footer p {
+    color: black;
+    float: left;
+    text-align: center;
 }
 
 @media screen and (max-height: 450px) {
@@ -51,3 +66,117 @@ body {
         font-size: 18px;
     }
 }
+
+/* ---------------- page de noticias (descrevendo) ----------- */
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+.redacao form{
+    margin-left: 280px;
+    margin-top: 70px;
+}
+
+.titulo input[type=text] {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+}
+
+.form-image {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+}
+
+.redacao-post{
+    margin-top: 40px;
+
+}
+
+.buttonpost {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttoncancel {
+    background-color:red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+/* -----------------------------page grupos ----------------------------- */
+
+.name-grupos input[type=text] {
+    width: 68%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+.curso-oferece input[type=text]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.email-grupo input[type=email]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+.contato-grupo input[type=tel]{
+    width:73.5%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+.grup-forms{
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 249px;
+    margin-top: 75px;
+    
+}
+/* -----------------------------page eventos ----------------------------- */

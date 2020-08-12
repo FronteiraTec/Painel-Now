@@ -12,7 +12,6 @@ CREATE TABLE usuarios (
 CREATE TABLE eventos(
   id INTEGER NOT NULL PRIMARY KEY,
   imagem VARCHAR(50)
-
 )
 
 CREATE TABLE noticias(
@@ -25,6 +24,7 @@ CREATE TABLE noticias(
 CREATE TABLE grupos(
   id INTEGER NOT NULL PRIMARY KEY,
   nome VARCHAR(255),
+  curso VARCHAR(255),
   email VARCHAR(255),
   telefone INTEGER(11)
 )
