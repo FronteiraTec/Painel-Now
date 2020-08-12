@@ -17,10 +17,10 @@
             </a> 
         </nav>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="#">Home</a>
+        <a href="dashboard.php">Home</a>
         <a href="#">Eventos</a>
-        <a href="#">Grupos</a>
-        <a href="#">Noticias</a>
+        <a href="grupos.php">Grupos</a>
+        <a href="jornal.php">Noticias</a>
         <a href="#">Documentos</a>
     </div>
 
@@ -28,14 +28,3 @@
 
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Painel</span>
     </div>
-
-    <footer>
-        <br><br>
-        <p>© Copyright 2020</p>
-    </footer>
-
-    <script src="../assets/js/main.js"></script>
-
-
-</body>
-</html>
