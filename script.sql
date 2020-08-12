@@ -3,32 +3,42 @@ CREATE DATABASE Painel DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
 USE Painel;
 
 
-CREATE TABLE usuarios (
-  id INTEGER NOT NULL PRIMARY KEY,  
-  login VARCHAR(50),
-  senha VARCHAR(50)
+DROP TABLE IF EXISTS 'usuarios';
+CREATE TABLE IF NOT EXISTS 'usuarios' (
+  'idUsuario' NOT NULL AUTO_INCREMENT,  
+  'login' VARCHAR(50),
+  'senha' varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`idUsuario`)
 );
 
-CREATE TABLE eventos(
-  id INTEGER NOT NULL PRIMARY KEY,
-  imagem VARCHAR(50)
-)
+DROP TABLE IF EXISTS 'eventos';
+CREATE TABLE IF NOT EXISTS 'eventos'(
+  'idCarrosel' INTEGER AUTO_INCREMENT PRIMARY KEY,  
+  'imagem' VARCHAR(50)
+);
 
-CREATE TABLE noticias(
-  id INTEGER NOT NULL PRIMARY KEY,
-  titulo VARCHAR(50),
-  texto VARCHAR(1000)
 
-)
+DROP TABLE IF EXISTS 'noticias';
+CREATE TABLE IF NOT EXISTS 'noticias'(
+  'idNoticias' INTEGER AUTO_INCREMENT PRIMARY KEY,
+  'fotografia' VARCHAR(100)  
+  'titulo' VARCHAR(50),
+  'texto' VARCHAR(1000),
 
-CREATE TABLE grupos(
-  id INTEGER NOT NULL PRIMARY KEY,
-  nome VARCHAR(255),
-  curso VARCHAR(255),
-  email VARCHAR(255),
-  telefone INTEGER(11)
-)
+);
 
-CREATE TABLE documentos(
-  -- link VARCHAR(255) como ajeitar isso
-)
+
+DROP TABLE IF EXISTS 'grupos';
+CREATE TABLE IF NOT EXISTS 'grupos'(
+  'id' INTEGER AUTO_INCREMENT PRIMARY KEY,  
+  'nome' VARCHAR(255),
+  'curso' VARCHAR(255),
+  'email' VARCHAR(255),
+  'telefone' INTEGER(11)
+);
+
+DROP TABLE IF EXISTS 'documentos';
+CREATE TABLE IF NOT EXISTS 'documentos'(
+  id INTEGER AUTO_INCREMENT PRIMARY KEY,  
+  link VARCHAR(255) 
+);
