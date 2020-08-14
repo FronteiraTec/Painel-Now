@@ -132,35 +132,52 @@ button:hover {
 /* -----------------------------page grupos ----------------------------- */
 
 .name-grupos input[type=text] {
-    width: 68%;
+    width: 75%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0 0 40px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
 }
+
 .curso-oferece input[type=text]{
     width: 75%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0 0 108px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
 
 }
+
+.grupo-descricao textarea{
+    width: 75%;
+    /* margin-left: -15px; */
+    padding: 11px;
+    /* margin: 8px 0; */
+    margin: 9px 0px 0px 80px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+
 .email-grupo input[type=email]{
     width: 75%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0 0 107px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
 
 }
+
 .contato-grupo input[type=tel]{
-    width:73.5%;
+    width: 75%;
     padding: 12px 20px;
-    margin: 8px 0;
+    margin: 8px 0 0 92px;
     display: inline-block;
     border: 1px solid #ccc;
     box-sizing: border-box;
@@ -179,4 +196,44 @@ button:hover {
     margin-top: 75px;
     
 }
-/* -----------------------------page eventos ----------------------------- */
+
+.buttonpost-grupo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttoncancel-grupo {
+    background-color:red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+/* -----------------------------page carrosel art ----------------------------- */
+.home-image form{
+    margin-left: 280px;
+    margin-top: 70px;
+
+}
+
+.form-Himage{
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+
+}
