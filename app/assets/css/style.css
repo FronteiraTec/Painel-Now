@@ -44,6 +44,17 @@ body {
     border: solid #ddd 1px;
 }
 
+
+.deslogar{
+   
+    display: flex;
+    /* align-content: flex-end; */
+    margin-left: 1265px;
+    /* color: black; */
+    margin-top: -33px;
+    
+}
+
 footer {
     display: flex;
     flex-direction: column;
