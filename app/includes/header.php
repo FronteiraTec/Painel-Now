@@ -18,7 +18,7 @@
         </nav>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
         <a href="dashboard.php">Home</a>
-        <a href="#">Eventos</a>
+        <a href="carrosel.php">Carrosel art</a>
         <a href="grupos.php">Grupos</a>
         <a href="jornal.php">Noticias</a>
         <a href="#">Documentos</a>
