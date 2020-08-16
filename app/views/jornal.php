@@ -16,11 +16,10 @@
 
             <div class="redacao-post">
                 <textarea name="my_editor" id="my_editor" rows="400" cols="110"></textarea>
-                <input type="submit" value="Submit" name="submit_text">
-                <!-- <textarea name="message" rows="40" cols="110"></textarea>
-                    <br><br>
-                    <button type="button" class="buttonpost">Postar</button>
-                    <button type="button" class="buttoncancel">Cancelar</button> -->
+                <!-- <input type="submit" value="Submit" name="submit_text"> -->
+                
+                <button type="button" class="buttonpost">Postar</button>
+                <button type="button" class="buttoncancel">Cancelar</button>
             </div>
         </form>
     </div>
