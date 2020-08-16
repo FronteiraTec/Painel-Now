@@ -10,7 +10,9 @@
         </form>
 
     </div>
+    
+    
 
-<form action="#">
+
 
     <?php require_once("../includes/footer.php") ?>
