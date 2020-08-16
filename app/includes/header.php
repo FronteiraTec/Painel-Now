@@ -22,15 +22,14 @@
         <a href="grupos.php">Grupos</a>
         <a href="jornal.php">Noticias</a>
         <a href="#">Documentos</a>
+        <a href="#">sair</a>
     </div>
 
     <div id="main">
 
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Painel</span>
 
-        <div class="deslogar">
-            <span id="sair"><a href="#"><img src="../assets/img/saida.png" width="32" alt="sair"></a></span>
-        </div>
+       
 
     </div>
 
