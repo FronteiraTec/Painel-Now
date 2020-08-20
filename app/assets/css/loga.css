@@ -13,6 +13,10 @@ body {
     background-color: #F7F7F7;
 }
 
+h3{
+    text-align: center;
+    margin-top: 30px;
+}
 img{
     text-align: center;
     padding-left: 43%;
@@ -20,8 +24,15 @@ img{
     padding-top: 30px;
 
 }
+.notification{
+    text-align: center;
+    margin-top: 12px;
+    color: red;
 
-
+}
+form{
+    margin-top: -37px;
+}
 input[type=text],
 input[type=password] {
     width: 100%;

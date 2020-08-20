@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" href="../assets/img/dce-logo.png">
@@ -9,7 +8,6 @@
 </head>
 
 <body>
-
     <div id="mySidenav" class="sidenav">
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
@@ -20,17 +18,13 @@
         <a href="dashboard.php">Home</a>
         <a href="carrosel.php">Carrosel art</a>
         <a href="grupos.php">Grupos</a>
-        <a href="jornal.php">Noticias</a>
+        <a href="jornal.php">Redação</a>
+        <a href="#">Listar Noticias</a>
+        <a href="#">Listar Grupos</a>
         <a href="#">Documentos</a>
         <a href="#">sair</a>
     </div>
 
     <div id="main">
-
         <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776; Painel</span>
-
-       
-
     </div>
-
-    
