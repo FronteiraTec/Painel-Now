@@ -1,0 +1,248 @@
+body {
+    font-family: "Lato", sans-serif;
+    margin: 0;
+}
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+    border: solid #ddd 1px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: red;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+#main {
+    transition: margin-left .5s;
+    padding: 16px;
+    border: solid #ddd 1px;
+}
+
+
+
+
+footer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    border: solid #ddd 1px;
+}
+
+footer p {
+    color: black;
+    float: left;
+    text-align: center;
+}
+
+@media screen and (max-height: 450px) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+    .sidenav a {
+        font-size: 18px;
+    }
+}
+
+/* ---------------- page de noticias (descrevendo) ----------- */
+.shadow-textarea textarea.form-control::placeholder {
+    font-weight: 300;
+}
+.shadow-textarea textarea.form-control {
+    padding-left: 0.8rem;
+}
+
+.redacao form{
+    margin-left: 280px;
+    margin-top: 70px;
+}
+
+.titulo input[type=text] {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+}
+
+.form-image {
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+}
+
+.redacao-post{
+    width: 72.3%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-left: 43px;
+
+}
+
+.buttonpost {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttoncancel {
+    background-color: red;
+    color: white;
+    padding: 14px 10px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+
+}
+
+/* -----------------------------page grupos ----------------------------- */
+
+.name-grupos input[type=text] {
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0 0 40px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+.curso-oferece input[type=text]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0 0 108px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.grupo-descricao textarea{
+    width: 75%;
+    /* margin-left: -15px; */
+    padding: 11px;
+    /* margin: 8px 0; */
+    margin: 9px 0px 0px 80px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+
+.email-grupo input[type=email]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0 0 107px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+.contato-grupo input[type=tel]{
+    width: 75%;
+    padding: 12px 20px;
+    margin: 8px 0 0 92px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+
+}
+
+
+.grup-forms{
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 249px;
+    margin-top: 75px;
+    
+}
+
+.buttonpost-grupo {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+.buttoncancel-grupo {
+    background-color:red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 10%;
+}
+/* -----------------------------page carrosel art ----------------------------- */
+.home-image form{
+    margin-left: 280px;
+    margin-top: 70px;
+
+}
+
+.form-Himage{
+    width: 70%;
+    padding: 12px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-left: 55px;
+
+}
