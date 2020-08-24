@@ -11,14 +11,14 @@ session_start();
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="app/assets/img/dce-logo.png">
-    <link rel="stylesheet" href="app/assets/css/loga.css">
+    <link rel="shortcut icon" href="public/assets/img/dce-logo.png">
+    <link rel="stylesheet" href="public/assets/css/loga.css">
     <title>Login</title>
 </head>
 
 <body>
     <header class="main-header">
-        <img src="app/assets/img/dce-logo.png" alt="dce-logo" width="130">
+        <img src="public/assets/img/dce-logo.png" alt="dce-logo" width="130">
     </header>
 
     <div class="container-login">
@@ -33,7 +33,7 @@ session_start();
         endif;
         unset($_SESSION['nao_autenticado']);
         ?>
-        <form  action="login.php" method="post">
+        <form  action="app/controller/login.php" method="post">
             <div class="modal-content animate">
                 <div class="container">
                     <label for="Usuario"><b>Usuario</b></label>
@@ -49,7 +49,7 @@ session_start();
                 </div>
 
                 <div class="container" style="background-color:#f1f1f1">
-                    <a type="button" href="index.php" class="cancelbtn">Cancel</a>
+                    <a type="button" href="index.html" class="cancelbtn">Cancel</a>
                     <span class="psw">Esqueceu a  <a href="#">senha</a></span>
                 </div>
             </div>

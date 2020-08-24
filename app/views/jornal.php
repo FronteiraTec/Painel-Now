@@ -23,7 +23,7 @@
             </div>
         </form>
     </div>
-    <script src="../assets/js/ckeditor/ckeditor.js"></script>
+    <script src="../../public/assets/js/ckeditor/ckeditor.js"></script>
     <script>
         ClassicEditor.create(document.getElementById('my_editor'));
     </script>

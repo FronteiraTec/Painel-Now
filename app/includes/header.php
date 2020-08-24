@@ -2,8 +2,8 @@
 <html>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../assets/img/dce-logo.png">
-    <link rel="stylesheet" type="text/css" href="../assets/css/style.css" />
+    <link rel="shortcut icon" href="../../public/assets/img/dce-logo.png">
+    <link rel="stylesheet" type="text/css" href="../../public/assets/css/style.css" />
     <title>Painel</title>
 </head>
 
@@ -11,7 +11,7 @@
     <div id="mySidenav" class="sidenav">
         <nav class="navbar navbar-light bg-light">
             <a class="navbar-brand" href="#">
-                <img src="../assets/img/dce-logo.png" style="padding-left: 40px;" width="100" height="100" alt="">
+                <img src="../../public/assets/img/dce-logo.png" style="padding-left: 40px;" width="100" height="100" alt="">
             </a>
         </nav>
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
@@ -22,7 +22,7 @@
         <a href="#">Listar Noticias</a>
         <a href="#">Listar Grupos</a>
         <a href="#">Documentos</a>
-        <a href="#">sair</a>
+        <a href="../controller/logout.php">sair</a>
     </div>
 
     <div id="main">
