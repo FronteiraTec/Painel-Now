@@ -10,7 +10,6 @@ CREATE TABLE `login`.`usuario` (
 
 
 
---------- OBS
--- senha para acessar
---  -> user:rafa
---  -> senha:vintage
+INSERT INTO `usuario`(`usuario_id`, `usuario`, `senha`) VALUES (1,'rafa',md5("vintage"))
+INSERT INTO `usuario`(`usuario_id`, `usuario`, `senha`) VALUES (2,'fabricio',md5("fabricio"))
+INSERT INTO `usuario`(`usuario_id`, `usuario`, `senha`) VALUES (3,'stefanni',md5("stefanni"))
